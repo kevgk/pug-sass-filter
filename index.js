@@ -1,3 +1,6 @@
 const sass = require('node-sass');
 
-module.exports = data => sass.renderSync({ data }).css.toString();
+module.exports = (data, { style='nested' }) => sass.renderSync({
+  data, 
+  outputStyle: style
+}).css.toString();
