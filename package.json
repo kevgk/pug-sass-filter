@@ -14,9 +14,8 @@
     "gulp"
   ],
   "author": "Kevin Gerken",
-  "license": "ISC",
+  "license": "MIT",
   "scripts" : {
-    "test": "gulp test"
   },
   "bugs": {
     "url": "https://github.com/kevgk/pug-sass-filter/issues"
