@@ -22,8 +22,10 @@
   },
   "homepage": "https://github.com/kevgk/pug-sass-filter#readme",
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-pug": "^4.0.1",
     "node-sass": "^4.9.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-pug": "^4.0.1"
   }
 }
